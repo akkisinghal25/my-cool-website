@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cool Website</title>
+</head>
+<!--body start-->
+
+</body>
+    <h1>Blockchian</h1><!--heading-->
+    <a href="loginpage.html">login page</a>
+    <a href="payment.html">Payment page</a>
+    <hr>
+    <p>From Wikipedia, the free encyclopedia  by <a href="images/introduction.html" ><em><b>Akshat singhal</b></em></a> </p>
+    
+   <p><em>For other uses, see Block chain (disambiguation).</em></p> 
+   
+   <p>
+    Bitcoin blockchain structure[further explanation needed]
+    A <strong>blockchain</strong> is a type of <mark>Distributed Ledger Technology (DLT) </mark>that <del>consists </del> comprises of <ins> growing list</ins> of records, called blocks, that are securely linked together using cryptography. <sup> [1][2][3][4]</sup> Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (generally represented as a Merkle tree, where data nodes are represented by leafs). The timestamp proves that the transaction data existed when the block was created. <small>each block contains information about the block previous to it, they effectively form a chain (compare linked list data structure), with each additional block linking to the ones before it.</small>   Consequently, blockchain transactions are irreversible in that, once they are recorded, the data in any given block cannot be altered retroactively without altering all subsequent blocks. <br> <br>
+   <img width="400" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bitcoin_Block_Data.svg/580px-Bitcoin_Block_Data.svg.png" alt="(blockchian image)image not found">
+   <img width="300" src="images/IMG_2272.jpeg" alt="fare picture">
+   <img width="400" src="images/1.jpeg" alt="car picture">
+   <img width="300" src="images/IMG_2228.jpeg" alt="buddha picture"><br><br>
+    
+    Blockchains are typically managed by a peer-to-peer (P2P) computer network for use as a public distributed ledger, where nodes collectively adhere to a consensus algorithm protocol to add and validate new transaction blocks. Although blockchain records are not unalterable, since blockchain forks are possible, blockchains may be considered secure by design and exemplify a distributed computing system with high Byzantine fault tolerance. <sup> [5]</sup> <br> <br>
+    
+    A blockchain was created by a person (or group of people) using the name (or pseudonym) Satoshi Nakamoto in 2008 <sup>[6]</sup> to serve as the public distributed ledger for bitcoin cryptocurrency transactions, based on previous work by Stuart Haber, W. Scott Stornetta, and Dave Bayer. <sup>[7]</sup> The identity of Satoshi Nakamoto remains unknown to date. The implementation of the blockchain within bitcoin made it the first digital currency to solve the double-spending problem without the need of a trusted authority or central server. The bitcoin design has inspired other applications <sub>[3][2]</sub>  and blockchains that are readable by the public and are widely used by cryptocurrencies. The blockchain may be considered a type of payment rail. <sup>[8]</sup> <br> <br>
+    
+    Private blockchains have been proposed for business use. Computerworld called the marketing of such privatized blockchains without a proper security model "snake oil";<sup>[9]</sup> however, others have argued that permissioned blockchains, if carefully designed, may be more decentralized and therefore more secure in practice than permissionless ones. <sub>[4]</sub> <sup>[10]</sup></p> <br><br>
+    <p><b>contents</b></p><!--list-->
+    <ol type="1">
+        <li>History</li>
+        <li>Structure & Design</li>
+        <ol type="a">
+            <li>Blocks</li>
+            <ol type="i">
+                <li>Block time</li>
+                <li>Hard forks</li>
+            </ol>
+            <li>Decentralization</li>
+            <li>Openness</li>
+            <ol type="i">
+                <li>Permissionless (public) blockchain</li>
+                <li>Permissioned (private) blockchain</li>
+                <li>Blockchain analysis</li>
+            </ol>
+            <li>Standardisation</li>
+            <li>Centralized Blockchain</li>
+        </ol>
+        <li>Types</li>
+        <ol type="a">
+            <li>Public blockchains</li>
+            <li>Private blockchains</li>
+            <li>Hybrid blockchains</li>
+            <li>Sidechains</li>
+        </ol>
+    </ol>
+    <h3>HISTORY</h3><!--sub heading-->
+     <hr>
+     <p>
+
+        <strong> Bitcoin</strong>, <em> Ethereum and Litecoin</em> transactions per day (January 2011 – January 2021)
+        Cryptographer David Chaum first proposed a blockchain-like protocol in his 1982 dissertation "Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups."<sup>[11] </sup>Further work on a cryptographically secured chain of blocks was described in 1991 by Stuart Haber and W. Scott Stornetta.[4][12] They wanted to implement a system wherein document timestamps could not be tampered with. In 1992, Haber, Stornetta, and Dave Bayer incorporated Merkle trees into the design, which improved its efficiency by allowing several document certificates to be collected into one block.[4][13] Under their company Surety, their document certificate hashes have been published in The New York Times every week since 1995. <sup>[14]</sup>
+        
+        The first decentralized blockchain was conceptualized by a person (or group of people) known as Satoshi Nakamoto in 2008. Nakamoto improved the design in an important way using a Hashcash-like method to timestamp blocks without requiring them to be signed by a trusted party and introducing a difficulty parameter to stabilize the rate at which blocks are added to the <sup>[4]</sup> The design was implemented the following year by Nakamoto as a core component of the cryptocurrency bitcoin, where it serves as the public ledger for all transactions on the network. <sup>[3]</sup>
+        
+        In August 2014, the bitcoin blockchain file size, containing records of all transactions that have occurred on the network, reached 20 GB (gigabytes).[15] In January 2015, the size had grown to almost 30 GB, and from January 2016 to January 2017, the bitcoin blockchain grew from 50 GB to 100 GB in size. The ledger size had exceeded 200 GB by early 2020. <sup> [16]</sup>
+        <img  src="https://upload.wikimedia.org/wikipedia/commons/a/ac/2011-2021_blockchain_transactions.jpg" alt="image not found(history graph)"><br>
+
+
+        <b>This data is bsaed on 2016-2021</b>
+        <!--table-->
+        <table border="">
+            <tr>
+                <th>Name</th>
+                <th>lowest price</th>
+                <th>Heighest price</th>
+                <th>current price</th>
+            </tr>
+            <tr>
+                <td> <em> Bitcoin</em></td>
+                <td> 110k</td>
+                <td>500k</td>
+                <td>349k</td>
+            </tr>
+            <tr>
+                <td><em> Ethereum</em></td>
+                <td>10k</td>
+                <td>1.27M</td>
+                <td>1.24M</td>
+            </tr>
+            <tr>
+                <td><em>Litecoin</em></td>
+                <td>NULL</td>
+                <td>250k</td>
+                <td>74k</td>
+            </tr>
+        </table>
+
+
+        <h3>Structure & Design</h3><!--sub heading-->
+        <hr>
+
+
+        <p>A blockchain is a decentralized, distributed, and often public, digital ledger consisting of records called blocks that are used to record transactions across many computers so that any involved block cannot be altered retroactively, without the alteration of all subsequent blocks.[3][21] This allows the participants to verify and audit transactions independently and relatively inexpensively.[22] A blockchain database is managed autonomously using a peer-to-peer network and a distributed timestamping server. They are authenticated by mass collaboration powered by collective self-interests.[23] Such a design facilitates robust workflow where participants' uncertainty regarding data security is marginal. The use of a blockchain removes the characteristic of infinite reproducibility from a digital asset. It confirms that each unit of value was transferred only once, solving the long-standing problem of double-spending. A blockchain has been described as a value-exchange protocol.[24] A blockchain can maintain title rights because, when properly set up to detail the exchange agreement, it provides a record that compels offer <em>[citation needed]</em></p><br>
+        <i>Logically, a blockchain can be seen as consisting of several layers</i>
+        <ul>
+            <li>infrastructure (hardware)</li>
+            <li>networking (node discovery, information propagation and verification)</li>
+            <li>consensus (proof of work, proof of stake)</li>
+            <li>data (blocks, transactions)</li>
+            <li>application (smart contracts/decentralized applications, if applicable)</li>
+        </ul>
+
+        <h3>Block Time</h3><!--sub headng-->
+        <hr>
+        <p>The block time is the average time it takes for the network to generate one extra block in the blockchain. Some blockchains create a new block as frequently as every five seconds.[34] By the time of block completion, the included data becomes verifiable. In cryptocurrency, this is practically when the transaction takes place, so a shorter block time means faster transactions. The block time for Ethereum is set to between 14 and 15 seconds, while for bitcoin it is on average block. <sup>[35]</sup></p><br>
+
+        <p>Sometimes separate blocks can be produced concurrently, creating a temporary fork. In addition to a secure hash-based history, any blockchain has a specified algorithm for scoring different versions of the history so that one with a higher score can be selected over others. Blocks not selected for inclusion in the chain are called orphan blocks.[28] Peers supporting the database have different versions of the history from time to time. They keep only the highest-scoring version of the database known to them. Whenever a peer receives a higher-scoring version (usually the old version with a single new block added) they extend or overwrite their own database and retransmit the improvement to their peers. There is never an absolute guarantee that any particular entry will remain in the best version of history forever. Blockchains are typically built to add the score of new blocks onto old blocks and are given incentives to extend with new blocks rather than overwrite old blocks. Therefore, the probability of an entry becoming superseded decreases exponentially[30] as more blocks are built on top of it, eventually becoming very low.[3] <sub>[31]: ch. 08 [32]</sub> For example, bitcoin uses a proof-of-work system, where the chain with the most cumulative proof-of-work is considered the valid one by the network. There are a number of methods that can be used to demonstrate a sufficient level of computation. Within a blockchain the computation is carried out redundantly rather than in the traditional segregated and parallel manner.[33]</p><br>
+
+        <h3>Centralized Blockchain</h3><!--sub heading-->
+        <hr>
+        <p>Although most of blockchain implementation are decentralized and distributed, Oracle launched a centralized blockchain table feature in Oracle 21c database. The Blockchain Table in Oracle 21c database is a centralized blockchain which provide immutable feature. Compared to decentralized blockchains, centralized blockchains normally can provide a higher throughput and lower latency of transactions than consensus-based distributed blockchains</p><br>
+
+        <i><b>Types</b></i><!--heading-->
+        <hr>
+        <p>Currently, there are at least four types of blockchain networks — public blockchains, private blockchains, consortium blockchains and hybrid blockchains</p>
+
+        <h4>Public blockchains</h4> <!--inner heading-->
+        <p>A public blockchain has absolutely no access restrictions. Anyone with an Internet connection can send transactions to it as well as become a validator (i.e., participate in the execution of a consensus protocol). <sub>[74][self-published source?]</sub> Usually, such networks offer economic incentives for those who secure them and utilize some type of a Proof of Stake or Proof of Work algorithm. <br>
+        Some of the largest, most known public blockchains are the bitcoin blockchain and the Ethereum blockchain.</p>
+        
+        <h4>Private blockchains</h4><!--inner heading-->
+        <p>A private blockchain is permissioned.[53] One cannot join it unless invited by the network administrators. Participant and validator access is restricted. To distinguish between open blockchains and other peer-to-peer decentralized database applications that are not open ad-hoc compute clusters, the terminology Distributed Ledger (DLT) is normally used for private blockchains.</p>
+
+        <h4>Hybrid blockchains</h4><!--inner heading-->
+        <p>A hybrid blockchain has a combination of centralized and decentralized features.[75] The exact workings of the chain can vary based on which portions of centralization and decentralization are used.</p>
+
+        <h4>Sidechains</h4><!--inner heading-->
+        <p>A sidechain is a designation for a blockchain ledger that runs in parallel to a primary blockchain.[76][77] Entries from the primary blockchain (where said entries typically represent digital assets) can be linked to and from the sidechain; this allows the sidechain to otherwise operate independently of the primary blockchain (e.g., by using an alternate means of record keeping, alternate consensus algorithm, etc.)</p><br>
+        <img width="450" src="images/111.jpeg" alt="bitcoin picture">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/440px-Bitcoin.svg.png" alt="bitcoin picture">
+        <img width="450" src="images/2.jpeg" alt="bitcoin picture">
+        <hr>
+
+        <h4>Cryptocurrencies</h4><!--sub heading-->
+        <p>
+           Most cryptocurrencies use blockchain technology to record transactions. For example, the bitcoin network and Ethereum network are both based on blockchain. On 8 May 2018 Facebook confirmed that it would open a new blockchain group[84] which would be headed by David Marcus, who previously was in charge of Messenger. Facebook's planned cryptocurrency platform, Libra (now known as Diem), was formally announced on June 18, 2019. <br>
+
+            The criminal enterprise Silk Road, which operated on Tor, utilized cryptocurrency for payments, some of which the US federal government has seized through research on the blockchain and forfeiture. <br>
+            
+            Governments have mixed policies on the legality of their citizens or banks owning cryptocurrencies. China implements blockchain technology in several industries including a national digital currency which launched in 2020.[88] To strengthen their respective currencies, Western governments including the European Union and the United States have initiated similar projects.
+
+     <h2>GIFs!</h2> <!--gifs -->
+     <video width="32%" height="280" src="videos/bitcoin1.mp4" autoplay muted loop></video>
+     <video width="32%" height="280" src="videos/bitcoin2.mp4" autoplay muted loop></video>
+     <video width="32%" height="280" src="videos/bitcoin3.mp4" autoplay muted loop></video>
+        </p>
+
+            <h4>Smart contracts</h4><!--sub heading-->
+            <p>Blockchain-based smart contracts are proposed contracts that can be partially or fully executed or enforced without human interaction.[90] One of the main objectives of a smart contract is automated escrow. A key feature of smart contracts is that they do not need a trusted third party (such as a trustee) to act as an intermediary between contracting entities — the blockchain network executes the contract on its own. This may reduce friction between entities when transferring value and could subsequently open the door to a higher level of transaction automation.[91] An IMF staff discussion from 2018 reported that smart contracts based on blockchain technology might reduce moral hazards and optimize the use of contracts in general. But "no viable smart contract systems have yet emerged." Due to the lack of widespread use their legal status was unclear.</p>
+
+            <h4>Financial services</h4><!--sub heading-->
+            <p>According to Reason, many banks have expressed interest in implementing distributed ledgers for use in banking    and are cooperating with companies creating private blockchains,[94][95][96] and according to a September 2016 IBM study, this is occurring faster . <br>
+
+             Banks are interested in this technology not least because it has the potential to speed up back office settlement systems.[98] Moreover, as the blockchain industry has reached early maturity institutional appreciation has grown that it is, practically speaking, the infrastructure of a whole new financial industry, with all the implications which that entails.<br>
+                
+             Banks such as UBS are opening new research labs dedicated to blockchain technology in order to explore how blockchain can be used in financial services to increase efficiency and reduce costs. <br>
+                
+                Berenberg, a German bank, believes that blockchain is an "overhyped technology" that has had a large number of "proofs of concept", but still has major challenges, and very few success stories.[102]
+            </p>
+
+         <h4>Games</h4><!--sub heading-->
+         <p>
+             Blockchain technology, such as cryptocurrencies and non-fungible tokens (NFTs), has been used in video games for monetization. Many live-service games offer in-game customization options, such as character skins or other in-game items, which the players can earn and trade with other players using in-game currency. Some games also allow for trading of virtual items using real-world currency, but this may be illegal in some countries where video games are seen as akin to gambling, and has led to gray market issues such as skin gambling, and thus publishers typically have shied away from allowing players to earn real-world funds from games.[105] Blockchain games typically allow players to trade these in-game items for cryptocurrency, which can then be exchanged for money. <br>
+
+             The first known game to use blockchain technologies was CryptoKitties, launched in November 2017, where the player would purchase NFTs with Ethereum cryptocurrency, each NFT consisting of a virtual pet that the player could breed with others to create offspring with combined traits as new NFTs.[107][106] The game made headlines in December 2017 when one virtual pet sold for more than US$100,000.[108] CryptoKitties also illustrated scalability problems for games on Ethereum when it created significant congestion on the Ethereum network in early 2018 with approximately 30% of all Ethereum transactions[clarification needed] being for the game. <br>
+                    
+             By the early 2020s, there had not been a breakout success in video games using blockchain, as these games tend to focus on using blockchain for speculation instead of more traditional forms of gameplay, which offers limited appeal to most players. Such games also represent a high risk to investors as their revenues can be difficult to predict.[106] However, limited successes of some games, such as Axie Infinity during the COVID-19 pandemic, and corporate plans towards metaverse content, refueled interest in the area of GameFi, a term describing the intersection of video games and financing typically backed by blockchain currency, in the second half of 2021. Several major publishers, including Ubisoft, Electronic Arts, and Take Two Interactive, have stated that blockchain and NFT-based games are under serious consideration for their companies in the future. <br>
+                    
+             In October 2021, Valve Corporation banned blockchain games, including those using cryptocurrency and NFTs, from being hosted on its Steam digital storefront service, which is widely used for personal computer gaming, claiming that this was an extension of their policy banning games that offered in-game items with real-world value. Valve's prior history with gambling, specifically skin gambling, was speculated to be a factor in the decision to ban blockchain games.[113] Journalists and players responded positively to Valve's decision as blockchain and NFT games have a reputation for scams and fraud among most PC gamers,[105][113] Epic Games, which runs the Epic Games Store in competition to Steam, said that they would be open to accepted blockchain games, in the wake of Valve's refusal. 
+         </p>
+         <br>
+         
+
+         <fieldset><legend>Test coloumn</legend> <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorem dignissimos deserunt soluta itaque error rem natus iusto sunt! Ducimus officiis possimus at pariatur nihil porro asperiores, animi impedit consequatur beatae id sapiente maxime aut necessitatibus, velit veritatis sint doloribus voluptatem architecto nesciunt nam perspiciatis, quas eius? Doloremque, veritatis quaerat illo neque aliquid officiis corporis, sint ducimus, pariatur nulla velit quod! Deleniti neque sit obcaecati odio? Maiores porro aut dignissimos sequi cumque laboriosam quasi perspiciatis repudiandae tenetur excepturi rem accusamus facere minus eum quam neque, accusantium repellat iure officiis pariatur. Iusto repellendus corrupti ipsum ut quidem numquam aspernatur incidunt officia. , ipsum dolor sit amet consectetur adipisicing elit. Expedita nemo pariatur, ducimus, maxime optio, iusto cum similique unde perferendis quae ut possimus assumenda repellat nostrum impedit animi alias perspiciatis fugiat.</p>      </fieldset>
+        <hr>
+        <i> <h2>Learn Bitcoin!</h2></i> <!--YT videos-->
+        <i><h4>with videos</h4></i>
+        <iframe width="32%" height="278" src="https://www.youtube.com/embed/sh7jXV3nwUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="32%" height="278" src="https://www.youtube.com/embed/jV68yMnH01o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="32%" height="278" src="https://www.youtube.com/embed/YJyXfjbBmc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+       
+
+
+
+</body>
+</html
